@@ -1,6 +1,14 @@
+import Kitchen from './Kitchen';
+import LivingRoom from './LivingRoom';
+import Bath from './Bath';
+
 const Floorplan = () => {
   return (
-    <h1>This is a floorplan component</h1>
+    <>
+    <Kitchen />
+    <LivingRoom />
+    <Bath size={ ["Full", "Half"] } />
+    </>
   )
 }
 
