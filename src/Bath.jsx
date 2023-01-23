@@ -1,10 +1,10 @@
 const Bath = (props) => {
   console.log(props);
   return (
-    <ul>
+    <h4>
       { props.size.map(bath => 
         <h4>{bath} Bath</h4>)}
-    </ul>
+    </h4>
   )
 } 
 

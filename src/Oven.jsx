@@ -1,6 +1,6 @@
 const Oven = () => {
   return (
-    <h4>This is an oven component</h4>
+    <h4>Oven</h4>
   )
 }
 

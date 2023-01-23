@@ -1,6 +1,6 @@
 const LivingRoom = () => {
   return (
-    <h2>This is a LivingRoom component</h2>
+    <h4>Living Room</h4>
   )
 }
 

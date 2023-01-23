@@ -1,6 +1,6 @@
 const Sink = () => {
   return (
-    <h4>This is a sink component</h4>
+    <h4>Sink</h4>
   )
 }
 
