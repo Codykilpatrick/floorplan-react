@@ -1,6 +1,10 @@
 const Bath = (props) => {
+  console.log(props);
   return (
-    <h2>This is a Bath component</h2>
+    <ul>
+      { props.size.map(bath => 
+        <h4>{bath} Bath</h4>)}
+    </ul>
   )
 } 
 
