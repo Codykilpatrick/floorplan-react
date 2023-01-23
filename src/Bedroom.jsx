@@ -1,9 +1,11 @@
 const Bedroom = (props) => {
   console.log(props);
   return (
-    <h4>
-    Bedroom {props.bedNum}
-    </h4>
+    <div>
+      <h4>
+        Bedroom {props.bedNum}
+      </h4>
+    </div>
   )
 }
 
